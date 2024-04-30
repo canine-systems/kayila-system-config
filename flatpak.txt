@@ -1,0 +1,6 @@
+com.github.geigi.cozy
+com.discordapp.Discord
+org.signal.Signal
+net.codeindustry.MasterPDFEditor
+md.obsidian.Obsidian
+net.filebot.FileBot
