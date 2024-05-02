@@ -1,1 +1,3 @@
-/kayila-config/
+*.deb
+*.buildinfo
+*.changes
