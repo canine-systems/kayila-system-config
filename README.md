@@ -3,11 +3,17 @@
 Initial, one-time setup:
 
 ```
-apt-add-repository -y contrib && dpkg --add-architecture i386
+make bootstrap
 ```
 
 Build the .deb:
 
 ```
-./kayila-config.ctl
+make
+```
+
+Build + install the .deb:
+
+```
+make install
 ```
