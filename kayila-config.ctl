@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 2.2
+Version: 2.3
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -38,7 +38,7 @@ Depends: abcde,
  kicad-libraries,
  kicad-packages3d,
  krita,
-# lutris,
+ lutris,
  minicom,
  mitmproxy,
  neochat,
@@ -55,7 +55,7 @@ Depends: abcde,
  podman,
  podman-compose,
  podman-docker,
-# protontricks,
+ protontricks,
  python3,
  redshift,
  retroarch,
@@ -65,7 +65,7 @@ Depends: abcde,
  spacenavd,
  ssh,
  sshfs,
-# steam
+ steam,
  sudo,
  sweethome3d,
  telegram-desktop,
@@ -81,7 +81,8 @@ Depends: abcde,
  vlc,
  vulkan-tools,
  wget,
-# winetricks,
+ wine,
+ winetricks,
  wireshark-qt,
  wormhole-william,
  yt-dlp,
