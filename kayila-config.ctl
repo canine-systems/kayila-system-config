@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 2.7
+Version: 2.8
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -25,6 +25,7 @@ Depends: abcde,
  equivs,
  firefox-esr,
  flatpak,
+ gamemode,
  gimp,
  git,
  git-lfs,
@@ -54,6 +55,7 @@ Depends: abcde,
  picard,
  pipenv,
  pipx,
+ plasma-gamemode,
  podman,
  podman-compose,
  podman-docker,
