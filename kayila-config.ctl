@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 2.6
+Version: 2.7
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -79,6 +79,8 @@ Depends: abcde,
  trustedqsl,
  unrar-free,
  unzip,
+ v4l2loopback-dkms,
+ v4l2loopback-utils,
  virtinst,
  virt-manager,
  vlc,
