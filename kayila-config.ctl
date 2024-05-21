@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 2.11
+Version: 2.12
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -77,6 +77,7 @@ Depends: abcde,
  sudo,
  sweethome3d,
  telegram-desktop,
+ texlive-latex-extra,
  thunderbird,
  tigervnc-viewer,
  tmux,
