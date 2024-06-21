@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 3.0
+Version: 3.1
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -32,6 +32,7 @@ Depends: abcde,
  gnupg,
  gnuplot,
  gnuradio,
+ hotspot,
  htop,
  imagemagick,
  inkscape,
