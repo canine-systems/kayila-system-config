@@ -2,16 +2,19 @@ VERSION != egrep '^Version:' kayila-config.ctl | cut -d ' ' -f 2
 
 all: deb
 
-bootstrap:
-	apt-add-repository -y contrib && dpkg --add-architecture i386
-	dpkg --add-architecture i386
-	apt install equivs
+bootstrap: install steam
 
 deb:
+	which equivs-build || sudo apt install equivs
 	./kayila-config.ctl
 
 install: deb
 	sudo apt install ./kayila-config_${VERSION}_all.deb
+
+steam:
+	sudo apt-add-repository -y contrib
+	sudo dpkg --add-architecture i386
+	sudo apt install steam-installer
 
 version:
 	@echo ${VERSION}

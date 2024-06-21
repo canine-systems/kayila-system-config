@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 3.1
+Version: 4.0
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -74,7 +74,6 @@ Depends: abcde,
  spacenavd,
  ssh,
  sshfs,
- steam,
  sudo,
  sweethome3d,
  telegram-desktop,

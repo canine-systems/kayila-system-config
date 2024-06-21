@@ -1,11 +1,5 @@
 # kayila-system-config
 
-Initial, one-time setup:
-
-```
-make bootstrap
-```
-
 Build the .deb:
 
 ```
@@ -16,4 +10,16 @@ Build + install the .deb:
 
 ```
 make install
+```
+
+Configure `contrib` + multi-arch support + install Steam:
+
+```
+make steam
+```
+
+Initial setup, installing the .deb + Steam:
+
+```
+make bootstrap
 ```
