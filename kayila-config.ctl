@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 4.1
+Version: 4.3
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -48,6 +48,7 @@ Depends: abcde,
  neochat,
  neofetch,
  neovim,
+ network-manager-openvpn,
  nextcloud-desktop,
  libnfs-utils,
  magic-wormhole,
@@ -65,6 +66,8 @@ Depends: abcde,
  podman-docker,
  protontricks,
  python3,
+ qemu-system,
+ qemu-user-static,
  qrencode,
  radeontop,
  redshift,
