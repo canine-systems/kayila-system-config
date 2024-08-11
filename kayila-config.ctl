@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 5.1
+Version: 5.2
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -20,6 +20,8 @@ Depends: abcde,
  clusterssh,
  cura,
  curl,
+ ddcui,
+ ddcutil,
  deluge,
  desktop-file-utils,
  equivs,
