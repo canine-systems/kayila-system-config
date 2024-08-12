@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 5.2
+Version: 5.3
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -105,6 +105,7 @@ Depends: abcde,
  wormhole-william,
  xdotool,
  xmlstarlet,
+ xserver-xephyr,
  yt-dlp,
  zip
 # Recommends: <comma-separated list of packages>
