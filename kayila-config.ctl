@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 6.0
+Version: 6.1
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -47,6 +47,7 @@ Depends: abcde,
  minicom,
  mitmproxy,
  mkvtoolnix,
+ mplayer,
  neochat,
  neofetch,
  neovim,
