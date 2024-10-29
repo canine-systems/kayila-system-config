@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 6.1
+Version: 6.2
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -54,6 +54,7 @@ Depends: abcde,
  network-manager-openvpn,
  nextcloud-desktop,
  libnfs-utils,
+ libusb-1.0-0-dev,
  magic-wormhole,
  nmap,
  obs-studio,
