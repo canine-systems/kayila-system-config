@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 6.3
+Version: 7.1
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -26,6 +26,7 @@ Depends: abcde,
  desktop-file-utils,
  equivs,
  firefox-esr,
+ flac,
  flatpak,
  gamemode,
  gimp,
@@ -40,9 +41,6 @@ Depends: abcde,
  imagemagick,
  inkscape,
  keepassxc,
- kicad,
- kicad-libraries,
- kicad-packages3d,
  krita,
  lutris,
  minicom,
@@ -60,6 +58,7 @@ Depends: abcde,
  nmap,
  obs-studio,
  openscad,
+ libssl-dev,
  openvpn,
  picard,
  pipenv,
