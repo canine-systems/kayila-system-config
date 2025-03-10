@@ -13,6 +13,7 @@ Version: 7.2
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
+ axel,
  bat,
  calibre,
  cifs-utils,
