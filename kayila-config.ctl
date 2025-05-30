@@ -9,11 +9,13 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 7.2
+Version: 7.5
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
  axel,
+ avr-libc,
+ avrdude,
  bat,
  calibre,
  cifs-utils,
@@ -25,11 +27,13 @@ Depends: abcde,
  ddcutil,
  deluge,
  desktop-file-utils,
+ dfu-util,
  equivs,
  firefox-esr,
  flac,
  flatpak,
  gamemode,
+ gcc-avr,
  gimp,
  git,
  git-lfs,
@@ -53,6 +57,7 @@ Depends: abcde,
  neovim,
  network-manager-openvpn,
  nextcloud-desktop,
+ libimobiledevice-utils,
  libnfs-utils,
  libusb-1.0-0-dev,
  magic-wormhole,
