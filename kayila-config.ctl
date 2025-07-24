@@ -9,7 +9,7 @@ Homepage: https://github.com/canine-systems/kayila-system-config
 Standards-Version: 3.9.2
 
 Package: kayila-config
-Version: 7.9
+Version: 7.10
 Maintainer: Ellen Marie Dash <me@duckie.co>
 # Pre-Depends: <comma-separated list of packages>
 Depends: abcde,
@@ -33,6 +33,7 @@ Depends: abcde,
  flac,
  flatpak,
  gamemode,
+ gamescope,
  gcc-avr,
  gimp,
  git,
@@ -50,6 +51,7 @@ Depends: abcde,
  krita,
  libusbmuxd-tools,
  lutris,
+ mangoapp,
  minicom,
  mitmproxy,
  mkvtoolnix,
